@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FoodConnect365</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="icons/favicon.ico">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-container">
+      <div class="logo">FoodConnect365</div>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#menu">Menú</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+      <div class="menu-toggle">&#9776;</div>
+    </div>
+  </header>
+
+  <!-- HERO / BIENVENIDA -->
+  <section id="inicio" class="hero">
+    <div class="container">
+      <h1>Bienvenido a FoodConnect365</h1>
+      <p>La mejor experiencia gastronómica online.</p>
+      <a href="#menu" class="btn btn-primary">Ver Menú</a>
+    </div>
+  </section>
+
+  <!-- NOSOTROS -->
+  <section id="nosotros" class="section">
+    <div class="container">
+      <h2>Sobre Nosotros</h2>
+      <p>En FoodConnect365 conectamos a las personas con la mejor comida de su ciudad. Nuestra misión es ofrecer alimentos frescos, saludables y deliciosos directamente a tu puerta.</p>
+      <div class="nosotros-grid">
+        <div class="card">
+          <img src="images/chef.jpg" alt="Chef">
+          <h3>Chef Experto</h3>
+          <p>Contamos con chefs altamente capacitados para preparar los mejores platos.</p>
+        </div>
+        <div class="card">
+          <img src="images/fresh-food.jpg" alt="Ingredientes frescos">
+          <h3>Ingredientes Frescos</h3>
+          <p>Seleccionamos solo los ingredientes más frescos y de calidad.</p>
+        </div>
+        <div class="card">
+          <img src="images/delivery.jpg" alt="Entrega rápida">
+          <h3>Entrega Rápida</h3>
+          <p>Llevamos tus pedidos directamente a tu hogar de manera rápida y segura.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MENÚ / PRODUCTOS -->
+  <section id="menu" class="section">
+    <div class="container">
+      <h2>Nuestro Menú</h2>
+      <div class="menu-grid">
+        <div class="menu-card">
+          <img src="images/pizza.jpg" alt="Pizza">
+          <h3>Pizza Gourmet</h3>
+          <p>Deliciosa pizza con ingredientes frescos.</p>
+        </div>
+        <div class="menu-card">
+          <img src="images/burger.jpg" alt="Hamburguesa">
+          <h3>Hamburguesa Premium</h3>
+          <p>Jugosa hamburguesa con pan artesanal.</p>
+        </div>
+        <div class="menu-card">
+          <img src="images/salad.jpg" alt="Ensalada">
+          <h3>Ensalada Saludable</h3>
+          <p>Fresca, nutritiva y deliciosa.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="section contact-section">
+    <div class="container">
+      <h2>Contacto</h2>
+      <form id="contactForm">
+        <div class="form-group">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Correo:</label>
+          <input type="email" id="email" required>
+        </div>
+        <div class="form-group">
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 FoodConnect365. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
